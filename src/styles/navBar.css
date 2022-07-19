@@ -1,0 +1,12 @@
+.backnavColor{
+    background-color: #08090b;
+}
+.navLogo{
+    height: 37px;
+    width: 132px;
+}
+/* .navItems{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+} */

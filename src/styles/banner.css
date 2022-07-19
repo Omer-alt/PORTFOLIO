@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
+
+.bgProfil{
+    width: 100%;
+    position: relative;
+}
+.bannerOverlay{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    text-align: left;
+}
+.bTitle{
+    color: #f0f0f0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.bName{
+    color: #f0f0f0;
+    font-size: 34px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.bTexte{
+    color: #e2e2e2;
+    
+    font-weight: 300;
+}
+/* //////////////////effect lorsquon hover le bouton view more ////////*/
+.btEffect{
+    --color: #08090b;
+    --hover: #08090b;
+    transition: 0.25s;
+}
+.btEffect:hover,
+.btEffect:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 4em 0 0 0 var(--hover);
+}
