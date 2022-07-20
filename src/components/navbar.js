@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/navBar.css'
+import AboutUs from './AboutUs';
 
 import {
     BrowserRouter as Router,
@@ -33,7 +34,7 @@ const NavBar = () =>{
                                 <Nav></Nav>
                                 <Nav >                                   
                                     <Nav.Link href="/">Home</Nav.Link>
-                                    <Nav.Link href="/contact-us">About Us</Nav.Link>
+                                    <Nav.Link href="/about-us">About Us</Nav.Link>
                                     <Nav.Link href="/service">Service</Nav.Link>
                                     <Nav.Link href="/experience">Experience</Nav.Link>
                                     <Nav.Link href="/porfolio">Portfolio</Nav.Link>
@@ -48,9 +49,9 @@ const NavBar = () =>{
                             <Route exact path="/">
                                         {/* <Home /> */}
                             </Route>
-                            <Route path="/about-us">
-                                        {/* <AboutUs /> */}
-                            </Route>
+                            <Route path="/about-us" element={AboutUs}/>
+                                
+                           
                             <Route path="/contact-us">
                                         {/* <ContactUs /> */}
                             </Route>

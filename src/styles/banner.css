@@ -31,9 +31,10 @@
 .btEffect{
     --color: #08090b;
     --hover: #08090b;
-    transition: 0.25s;
+    transition: 0.25s ease-in-out;
+    /* border-style: none; */
 }
 .btEffect:hover,
 .btEffect:focus {
-  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 4em 0 0 0 var(--hover);
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.9em 0 0 0 var(--hover);
 }

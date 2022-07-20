@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
 .App {
   text-align: center;
   background-color: #08090b;
+  color: #e2e2e2;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+.subTitle{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.subTitleUnderline{
+  padding-bottom: 10px;
+  border-bottom: 3px solid #198754;
+}
+p{
+  font-size: 15px;
 }
 
 .App-logo {

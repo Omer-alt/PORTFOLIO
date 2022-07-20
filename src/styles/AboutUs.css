@@ -1,0 +1,54 @@
+.AboutUs{
+    background-color: #000;
+    
+}
+
+.aboutName{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.aboutProfil{
+    font-size: 18px;
+}
+/* ***************Right section*************** */
+.aboutRight{
+    text-align: justify;
+}
+.aboutPersonalCols{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutRightSecond{
+    text-align: left;
+}
+.aboutPInfo{
+    font-size: 16px;
+    color: #fdfdfd;
+    font-weight: 700;
+}
+.Aparagraph{
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #d5d7d9;
+    text-align: left;
+}
+/* section des deux colonnes visuelles */
+.aboutSoubTitle{
+    font-size: 24px;
+    margin-top: 34px;
+}
+.apCols > div {
+    line-height: 40px;
+}
+/*  */
+.baboutEffect{
+    --color: #08090b;
+    --hover: #08090b;
+    transition: 1s ease-in-out;
+    /* border-style: none; */
+}
+.baboutEffect:hover,
+.babouttEffect:focus {
+  box-shadow: inset -5.8em 0 0 0 var(--hover), inset 5.8em 0 0 0 var(--hover);
+}
