@@ -1,5 +1,6 @@
 .AboutUs{
     background-color: #000;
+    padding-bottom: 40px;
     
 }
 
@@ -41,7 +42,7 @@
 .apCols > div {
     line-height: 40px;
 }
-/*  */
+/********************************effect sur les boutons***********/
 .baboutEffect{
     --color: #08090b;
     --hover: #08090b;

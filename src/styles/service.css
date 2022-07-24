@@ -1,0 +1,12 @@
+.cardService{
+    color: #FFF;
+    background-color: #000;
+    text-align: left;
+    max-width: 296px;
+    max-height: 286px;
+}
+.cardServiceImg{
+    max-width: 55px;
+    max-height: 112px;
+    background-color: #000;
+}

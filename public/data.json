@@ -1,0 +1,31 @@
+
+
+
+{
+    "My_Services":[
+        {   "image":"web_service.png",
+            "title":"Web Developement",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {   "image":"ui.png",
+            "title":"Web Design",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {   "image":"design.png",
+            "title":"Graphic Design",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {   "image":"mobile.png",
+            "title":"Mobile apps",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {   "image":"Seo.png",
+            "title":"Seo Maketing",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {   "image":"web_banner.png",
+            "title":"Web Banner",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ]
+}
