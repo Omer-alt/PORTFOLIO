@@ -10,3 +10,9 @@
     max-height: 112px;
     background-color: #000;
 }
+@media screen  and (min-width:335px) {
+    .cardService{
+        max-width: none;
+        max-height: none;
+    }
+}

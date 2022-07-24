@@ -10,9 +10,9 @@ import logo from '../assets/logo.png'
 
 const NavBar = () => { 
     return (
-        <div className='backnavColor'>
+        <div className='backnavColor fixed-top'>
             <Container className="px-5">
-                <Navbar variant='dark' expand="lg" sticky="top">
+                <Navbar variant='dark' expand="lg" >
                     <Navbar.Brand href="#home">                                    
                         <img className='navLogo' alt="logo" src={logo} />
                         <span className="text-success dim">&#46;</span>                                  

@@ -27,5 +27,27 @@
             "title":"Web Banner",
             "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
+    ],
+    "My_Experiences":[
+        {   
+            "title":"Visual Designer",
+            "period":"2017-2018 | Full Time | InHouse",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do labore et dolo..."
+        },
+        {   
+            "title":"Visual Designer",
+            "period":"2017-2018 | Full Time | InHouse",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do labore et dolo..."
+        },
+        {   
+            "title":"Visual Designer",
+            "period":"2017-2018 | Full Time | InHouse",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do labore et dolo..."
+        },
+        {   
+            "title":"Visual Designer",
+            "period":"2017-2018 | Full Time | InHouse",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do labore et dolo..."
+        }
     ]
 }
