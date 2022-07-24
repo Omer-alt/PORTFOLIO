@@ -30,20 +30,25 @@ const Services = () => {
     },[])
 
   return (
-    <div>
-        <Container >
-            <Row>
-            <h1 className='subTitle'>My <span className='subTitleUnderline'>Ser</span>vices</h1>
-            <Col>
-                <CardGroup>
-                    {data.My_Services && data.My_Services.length > 0 && data.My_Services.map(
-                        (service, index)=><SIngleService key={index} service={service}/>
-                    ) }
-                </CardGroup>
-            </Col>
-            </Row>
-        </Container>
-    </div>
+    <>
+        <a id="services"></a>
+        <div>
+            <Container >
+                <Row>
+                    <h1 className='subTitle'>My <span className='subTitleUnderline'>Ser</span>vices</h1>
+                    <Col>
+                        <CardGroup>
+                            <Row>
+                                {data.My_Services && data.My_Services.length > 0 && data.My_Services.map(
+                                    (service, index)=><SIngleService key={index} service={service}/>
+                                ) }
+                            </Row>
+                        </CardGroup>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    </>
   )
 }
 

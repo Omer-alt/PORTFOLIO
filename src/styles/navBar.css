@@ -5,6 +5,18 @@
     height: 37px;
     width: 132px;
 }
+
+.navbar-toggle-btn:focus {
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /* .navItems{
     display: flex;
     justify-content: space-between;
