@@ -70,16 +70,28 @@
         ],
         "Skills":[
             {   
-                "technoloogy":"Visual Designer",
-                "Percentage":"2015-2016"
+                "technoloogy":"HTML",
+                "percentage":"90"
             },
             {   
-                "technoloogy":"Visual Designer",
-                "Percentage":"2015-2016"
+                "technoloogy":"React js",
+                "percentage":"75"
             },
             {   
-                "technoloogy":"Visual Designer",
-                "Percentage":"2015-2016"
+                "technoloogy":"Wordpress",
+                "percentage":"85"
+            },
+            {   
+                "technoloogy":"UI/UX",
+                "percentage":"88"
+            },
+            {   
+                "technoloogy":"Css3",
+                "percentage":"80"
+            },
+            {   
+                "technoloogy":"Bootstrap",
+                "percentage":"50"
             }
         ]
     }

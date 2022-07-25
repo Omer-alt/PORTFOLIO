@@ -1,7 +1,8 @@
 import React from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap'
+import { Card, Col, Container, Row, ListGroup } from 'react-bootstrap'
 import '../styles/knoledge.css'
 import Education from './tools/Education'
+import Skills from './tools/Skills'
 
 const Knowledges = ({data}) => {
     console.log(data.Knowledge,"knowledge")
@@ -23,7 +24,14 @@ const Knowledges = ({data}) => {
                             </Card>
                         </Col>
                         <Col md={8}>
-
+                            <ListGroup variant='flush'>
+                                {
+                                    data.Knowledge.Skills &&
+                                    data.Knowledge.Skills.length > 0 
+                                    ? data.Knowledge.Skills.map((skill, index) => <Skills skill={skill} key={index}/>)
+                                    :null
+                                }
+                            </ListGroup>    
                         </Col>
                     </Row>
                 </Col>
