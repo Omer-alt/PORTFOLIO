@@ -1,4 +1,4 @@
-export const getData=(setDataFetch)=>{
+export const getData= (setDataFetch, setLoading)=>{
     fetch('data.json'
     ,{
       headers : { 
@@ -11,8 +11,10 @@ export const getData=(setDataFetch)=>{
         console.log(response)
         return response.json();
     })
-    .then(function(myJson) {
-        console.log(myJson);
-        setDataFetch(myJson)
+    .then( function(myJson) {
+        setLoading(false)
+        // console.log(myJson);
+        // const newJson = myJson
+        setDataFetch( myJson)
     });
 }

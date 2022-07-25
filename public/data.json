@@ -49,5 +49,38 @@
             "period":"2017-2018 | Full Time | InHouse",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do labore et dolo..."
         }
-    ]
+    ],
+    "Knowledge":{
+        "Education":[
+            {   
+                "period":"2010-2012",
+                "title":"Front-end Engineer",
+                "description":"International Design Institute"
+            },
+            {   
+                "period":"2013-2014",
+                "title":"Graphic Designer",
+                "description":"HRK Design Institute"
+            },
+            {   
+                "period":"2015-2016",
+                "title":"Visual Designer",
+                "description":"HRK Design Institute"
+            }
+        ],
+        "Skills":[
+            {   
+                "technoloogy":"Visual Designer",
+                "Percentage":"2015-2016"
+            },
+            {   
+                "technoloogy":"Visual Designer",
+                "Percentage":"2015-2016"
+            },
+            {   
+                "technoloogy":"Visual Designer",
+                "Percentage":"2015-2016"
+            }
+        ]
+    }
 }

@@ -18,7 +18,7 @@ const Experience = ({experience}) => {
               {experience.title}
               <p className='cardPeriod pt-2'>{experience.period}</p>
             </Card.Title>
-          <hr className='ms-5'/>
+          <hr className='ms-sm-2 ms-md-0'/>
             <Card.Text className='cardDescription'>
                 {experience.description}
             </Card.Text>

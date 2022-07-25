@@ -1,0 +1,37 @@
+.knowledge{
+    background-color: #000;
+}
+.cardEducation{
+    background-color: #08090b;
+}
+/* *********single Body card */
+.cardBodyPeriod{
+    height: 25px;
+    width: 95px;
+    background-color: #198754;
+    padding-top: 3px;
+    display: inline-block;
+}
+.cardBodyTitle{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.cardBodyText{
+    color: #d5d7d9;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+@media screen and (min-width:1024px) {
+    .cardEducationElement{
+        text-align: start;
+    }
+    .cardBodyPeriod{
+        padding-left: 8px;
+    }
+}
+
+
+
