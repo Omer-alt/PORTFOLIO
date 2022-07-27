@@ -94,5 +94,32 @@
                 "percentage":"50"
             }
         ]
-    }
+    },
+    "My_portfolio":[
+        {
+            "category":"FASHION",
+            "image":"fashion1.jpeg"
+        },
+        {
+            "category":"FASHION",
+            "image":"fashion2.jpeg"
+        },
+        {
+            "category":"PRODUCT",
+            "image":"product1.jpeg"
+        },
+        {
+            "category":"BRANDING",
+            "image":"branding1.jpeg"
+        },
+        
+        {
+            "category":"PHOTOGRAPHY",
+            "image":"photography1.jpeg"
+        },
+        {
+            "category":"PRODUCT",
+            "image":"product2.png"
+        }
+    ]
 }

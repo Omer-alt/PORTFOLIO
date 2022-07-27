@@ -8,14 +8,14 @@ const Knowledges = ({data}) => {
     console.log(data.Knowledge,"knowledge")
 
   return (
-    <div className='knowledge'>
+    <div className='knowledge pb-5'>
         <Container>
             <Row>
                 <Col>
                     <h1 className='subTitle mt-4'>Educat<span className='subTitleUnderline'>ion</span> & Skills</h1>
                     <Row>
                         <Col md={4}>
-                            <Card className='cardEducation text-sm-center text-md-left' body>
+                            <Card className='cardEducation text-sm-center text-md-left h-100' body>
                                 {   data.Knowledge.Education && 
                                     data.Knowledge.Education.length > 0 
                                     ? data.Knowledge.Education.map((education, index) => <Education education={education} key={index}/>)
@@ -24,7 +24,7 @@ const Knowledges = ({data}) => {
                             </Card>
                         </Col>
                         <Col md={8}>
-                            <ListGroup variant='flush'>
+                            <ListGroup variant='flush' className='h-100'>
                                 {
                                     data.Knowledge.Skills &&
                                     data.Knowledge.Skills.length > 0 

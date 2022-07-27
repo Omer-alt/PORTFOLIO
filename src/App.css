@@ -26,7 +26,12 @@ p{
   height: 40vmin;
   pointer-events: none;
 }
-
+/* //pour un style a mes element de navigation */
+.navbar-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
