@@ -121,5 +121,43 @@
             "category":"PRODUCT",
             "image":"product2.png"
         }
+    ],
+    "Recommendation":[
+        {
+            "image":"friend1.png",
+            "nom":"MR.JOHN DOE",
+            "profession":"Designer",
+            "description":"Sed1 elit quam, iaculis sed semper sit amet udin vittheae nibi at magna akal semperFusce commodo molestie  elit quam, iaculis sed sempsum Dolort tusima olatiup udin vitae magna semperFusceSed elit quam, iaculis sed semper udin vitae nibh. at magna akal semperFusce."
+        },
+        {
+            "image":"friend3.png",
+            "nom":"MR.JOHN DOE",
+            "profession":"Designer",
+            "description":"Sed3 elit quam, iaculis sed semper sit amet udin vittheae nibi at magna akal semperFusce commodo molestie  elit quam, iaculis sed sempsum Dolort tusima olatiup udin vitae magna semperFusceSed elit quam, iaculis sed semper udin vitae nibh. at magna akal semperFusce."
+        },
+        {
+            "image":"friend2.png",
+            "nom":"MR.JOHN DOE",
+            "profession":"Designer",
+            "description":"Sed2 elit quam, iaculis sed semper sit amet udin vittheae nibi at magna akal semperFusce commodo molestie  elit quam, iaculis sed sempsum Dolort tusima olatiup udin vitae magna semperFusceSed elit quam, iaculis sed semper udin vitae nibh. at magna akal semperFusce."
+        }
+        
+    ],
+    "Contact":[
+        {
+            "information":"+911234567890",
+            "icon":"<BsIcon.BsFillTelephoneFill/>"
+        },
+        {
+            "information":"company@example.com",
+            "icon":"BsFillEnvelopeFill"
+        },
+        {
+            "information":"Demo A - 2 Puffin Street,Puffinville, USA",
+            "icon":"BsFillGeoAltFill"
+        }
+        
+        
+        
     ]
 }

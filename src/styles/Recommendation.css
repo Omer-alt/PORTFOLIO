@@ -1,0 +1,44 @@
+.recommendation{
+    background-color: #000;
+}
+
+/* recommendation item style */
+.rmdImage{
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+}
+.rmdItem{
+    display: flex;
+    justify-content: space-around;
+    background-color: #212529;
+}
+.rmdCaptionP{
+    color: #fdfdfd;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.rmdCaptionN{
+    color:#198754;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.rmdCaptionProfession{
+    font-size: 16px;
+    color: #e2e2e2;
+    opacity: .66;
+    font-weight: 600;
+}
+/* ********styliser mes indicateur */
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+/* ***************changement de couleur des indicateurs de carousels */
+.carousel-indicators .active{
+    background-color: #198754;
+}

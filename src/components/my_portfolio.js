@@ -22,9 +22,11 @@ const My_portfolio = ({data}) => {
                         </Nav>
                     </Navbar>
                     <Row>
+                        
                         {data.My_portfolio && data.My_portfolio.length > 0 && data.My_portfolio.map(
                             (creationItem, index)=><CreationList creationItem={creationItem} key={index}   />
                         )}
+                        
                     </Row>
                 </Col>
             </Row>

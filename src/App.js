@@ -9,6 +9,8 @@ import NavBar from './components/navbar';
 import Services from './components/Services';
 import Knowledges from './components/knowledge';
 import My_portfolio from './components/my_portfolio';
+import Recommendation from './components/Recommendation';
+import Contact from './components/Contact';
 
 function App() {
   //ici je recupere tous mes datas
@@ -31,6 +33,8 @@ function App() {
         <Experiences data={data}/> 
         <Knowledges data={data}/>
         <My_portfolio data={data}/>
+        <Recommendation data={data}/>
+        <Contact data={data} />
       </>
     }
       
