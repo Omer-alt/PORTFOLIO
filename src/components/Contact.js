@@ -67,7 +67,7 @@ const Contact = ({data}) => {
                             aria-describedby="basic-addon2"
                         />   
                     </InputGroup>
-                    <Button className='sendMessage mt-lg-2 mb-5 float-left'  variant="outline-success" size='lg'>Send Message</Button>
+                    <Button className='sendMessage mt-lg-2 mb-5 '  variant="outline-success" size='lg'>Send Message</Button>
                 </Form>
             </Col>
         </Row>

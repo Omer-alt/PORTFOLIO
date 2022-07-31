@@ -11,6 +11,7 @@ import Knowledges from './components/knowledge';
 import My_portfolio from './components/my_portfolio';
 import Recommendation from './components/Recommendation';
 import Contact from './components/Contact';
+import Footer from './components/footer';
 
 function App() {
   //ici je recupere tous mes datas
@@ -35,6 +36,7 @@ function App() {
         <My_portfolio data={data}/>
         <Recommendation data={data}/>
         <Contact data={data} />
+        <Footer/>
       </>
     }
       
