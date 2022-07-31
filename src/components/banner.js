@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <Container fluid >
         <Row >
-            <img src={banner} className="bgProfil" alt="backgroundProfil"/> 
+            <img id='scrollTop' src={banner} className="bgProfil" alt="backgroundProfil"/> 
             <div className='bannerOverlay col-6' >
                 <span className='bTitle'>Web App Developper</span>
                 <h1 className='bName mt-lg-1 mb-2'>Omer-alt FOTSO</h1>

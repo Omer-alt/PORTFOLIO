@@ -15,7 +15,8 @@ const Contact = ({data}) => {
         <Row>
             <Col sm={12} md={6}>
                 <h1 className='subTitle mt-4'>
-                    <span className='subTitleContactSpan'>
+                    <a name="contact"></a>
+                    <span  className='subTitleContactSpan'>
                         <span className='subTitleUnderline'>Con</span>tact us
                     </span>
                     <span className='subTitleContactSpan'>

@@ -3,9 +3,11 @@ import  AOS  from 'aos';
 import "aos/dist/aos.css";
 import '../styles/AboutUs.css'
 import AboutMe from '../assets/Aboutme.png'
+import { Waypoint } from "react-waypoint";
+import { WiDirectionUp } from "react-icons/wi";
 import {Container, Col, Row,Button } from 'react-bootstrap'
 
-const AboutUs = () => {
+const AboutUs = ({handleWayPointLeave}) => {
     // initialise AOS
   useEffect(()=>{
     AOS.init({duration: 2000})
@@ -35,6 +37,7 @@ const AboutUs = () => {
                                 content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident
                             </p>
                         </div>
+                        <Waypoint onEnter={()=>{handleWayPointLeave()}}  />
                         <div className='aboutRightSecond'>
                             <h1 className='aboutSoubTitle'>Personal Info</h1>
                             <div className='aboutPersonalCols'>
@@ -75,6 +78,16 @@ const AboutUs = () => {
                                     </div>
                                 </div>                           
                             </div>
+                            {/* {window.pageYOffset !==0 ?
+                                <a href='#scrollTop' style={{color:"#FFF"}}>
+                                    <div className='GoAtStarting'>
+                                        <WiDirectionUp style={{height:"46px", width:"44px", marginInline:"3px"}}/>
+                                    </div>
+                                </a>
+                                : null
+                            } */}
+                            
+                            
                             <Button className='baboutEffect mt-lg-5' variant="success" size='lg'>DOWNLOAD CV</Button>
                         </div>
                     </Col>
