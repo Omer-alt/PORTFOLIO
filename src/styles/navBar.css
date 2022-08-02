@@ -11,14 +11,43 @@
     border: 0;
 }
 
-/* .navbar-link {
+.navbar-link {
     color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-} */
+    /* text-transform: uppercase;
+    font-weight: bold; */
+}
+.navbar-link:hover {
+    color: #00b074;
+}
 
 /* .navItems{
     display: flex;
     justify-content: space-between;
     float: right;
 } */
+/* animation sous les nav link */
+.animationLine{
+    height: 10px;
+    width: 1px;
+    display: inline-block;
+}
+
+@keyframes line{
+    0%{background-color: #08090b;}
+    100%{background-color: #00b074;}
+}
+/* changement de style qui touche bootstrap */
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: none;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #00b074;
+
+}
+.navbar-dark .navbar-nav .nav-link:hover .animationLine{
+    animation: line 2s linear both;
+}

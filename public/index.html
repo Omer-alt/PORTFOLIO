@@ -17,7 +17,8 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!-- lien pour leaflet
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" /> -->
-
+    <!-- pour avoir un cursseur anime -->
+    <link rel="stylesheet" href="dist/magic-mouse.css" />
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -43,5 +44,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+
+    <script type="text/javascript" src="dist/magic_mouse.js"></script>
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
+    <!-- <script type="text/javascript">
+      const magicMouse = require('magicmouse.js')
+      options = { 
+      "cursorOuter": "circle-basic",
+      "hoverEffect": "circle-move",
+      "hoverItemMove": false,
+      "defaultCursor": false,
+      "outerWidth": 30,
+      "outerHeight": 30
+    };
+    magicMouse(options);
+  </script> -->
+  
   </body>
 </html>

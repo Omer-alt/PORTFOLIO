@@ -15,6 +15,9 @@ import Recommendation from './components/Recommendation';
 import Contact from './components/Contact';
 import Footer from './components/footer';
 import ScrollToTop from './components/tools/ScrollToTop';
+// import { magicMouse } from 'magicmouse.js'
+import  magicMouse  from 'magicmouse.js'
+
 
 function App() {
   //ici je recupere tous mes datas
@@ -34,6 +37,16 @@ function App() {
 
 
   useEffect(()=>{
+    magicMouse({
+      "cursorOuter": "circle-basic",
+      "hoverEffect": "pointer-blur",
+      "hoverItemMove": false,
+      "defaultCursor": false,
+      "outerWidth": 40,
+      "outerHeight": 40,
+      "color": "#00b074",
+      "backgroundColor": "#00b074"
+    })
     getData(setData, setLoading)
   },[])
  
