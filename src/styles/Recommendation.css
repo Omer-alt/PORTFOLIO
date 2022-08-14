@@ -3,6 +3,16 @@
 }
 
 /* recommendation item style */
+@media screen and (max-width:768px) {
+    .rmdImage{
+        height: 120px;
+        width: 120px;
+        border-radius: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 .rmdImage{
     height: 120px;
     width: 120px;

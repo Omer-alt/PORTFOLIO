@@ -1,5 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
-
+/* style avec card */
+.container-fluid{
+    padding: 0px;
+}
+.card{
+    border: none;
+}
+.card-img{
+    position: relative;
+    top: 80px;
+}
+.card-img-overlay{
+    top: 30%;
+    right: revert;
+    padding-left: 10%;
+    text-align: left;
+    max-width: 70%;
+}
+.row{
+    margin-right: auto;
+}
+@media screen and (max-width: 576px) {
+    .card-img-overlay{
+        top: 65%;
+        max-width: 90%;
+    }
+    .card-title{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .bTitle{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+.card-title{
+    font-size: 34px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.card-text{
+    color: #e2e2e2;
+    font-size: 16px;
+}
+/* style sans card */
 .bgProfil{
     width: 100%;
     position: relative;

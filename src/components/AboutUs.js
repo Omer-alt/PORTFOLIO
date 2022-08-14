@@ -16,11 +16,11 @@ const AboutUs = ({handleWayPointLeave}) => {
     <>
         <a name="about-us"></a>
         <div className='AboutUs'>
-            <Container fluid>
-                <Row >
+            <Container className='pt-5' fluid>
+                <Row className='pt-5'>
                     <Col  md={5} >
                         <div data-aos="fade-up">
-                            <img className='mt-md-5' src={AboutMe} alt='about profil'/>
+                            <img className='mt-md-5' style={{width:"50vh"}} src={AboutMe} alt='about profil'/>
                         </div>
                         <div>
                             <h5 className='aboutName'>Omer-alt FOTSO</h5>

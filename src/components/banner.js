@@ -6,8 +6,28 @@ import {Container, Col, Row,Card,Button } from 'react-bootstrap'
 
 const Banner = () => {
   return (
-    <Container fluid >
-        <Row >
+    <Container  fluid>
+      <Row style={{paddingLeft:"0px",paddingRight:"0px"}}>
+        
+        <Card className="bg-dark text-white">
+          <Card.Img style={{width:"100vw"}} id='scrollTop' src={banner} alt="backgroundProfil"/>
+          <Card.ImgOverlay>
+            <Col>
+              <span className='bTitle'>Web App Developper</span>
+              <Card.Title >Omer-alt FOTSO</Card.Title>
+              <Card.Text className='d-none d-md-block'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+                tempor incididunt ut dolor the sit amet consectetur adipisicing
+                elit sed do consectetur labore et dolo
+              </Card.Text>
+              <Button className='btEffect mt-lg-5' variant="success" size='lg'>VIEW MORE</Button>
+            </Col>
+            <Col></Col>
+          </Card.ImgOverlay>
+        </Card>
+        
+      </Row>
+      {/*  <Row >
             <img id='scrollTop' src={banner} className="bgProfil" alt="backgroundProfil"/> 
             <div className='bannerOverlay col-6' >
                 <span className='bTitle'>Web App Developper</span>
@@ -20,7 +40,7 @@ const Banner = () => {
                 <Button className='btEffect mt-lg-5' variant="success" size='lg'>VIEW MORE</Button>
             </div>
             <div className='col-6'></div>
-        </Row>
+        </Row> */}
     </Container>
   )
 }
