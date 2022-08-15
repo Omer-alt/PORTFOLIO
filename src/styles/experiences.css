@@ -1,6 +1,7 @@
 .experiences{
     background-color: #000;
 }
+
 /* ****************single Experience style************* */
 .cardExperienceTitle{
     font-size: 20px;
@@ -11,6 +12,9 @@
     color: #FFF;
     background-color: #08090b;
     text-align: left;
+}
+.cardExperience:hover{
+    background-color: #198754;
 }
 .cardPeriod{
     padding-top: 9px;

@@ -15,6 +15,7 @@ import Recommendation from './components/Recommendation';
 import Contact from './components/Contact';
 import Footer from './components/footer';
 import ScrollToTop from './components/tools/ScrollToTop';
+import Loader from "./components/tools/loader";
 // import { magicMouse } from 'magicmouse.js'
 import  magicMouse  from 'magicmouse.js'
 
@@ -52,7 +53,8 @@ function App() {
  
   return (
     <div className="App">
-    {!loading &&
+
+    {loading ? <Loader/>:
       <>
         <NavBar/>
         <Banner/>

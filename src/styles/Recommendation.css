@@ -1,7 +1,9 @@
 .recommendation{
     background-color: #000;
 }
-
+.rmdCarousel{
+    background-color: #212529;
+}
 /* recommendation item style */
 @media screen and (max-width:768px) {
     .rmdImage{

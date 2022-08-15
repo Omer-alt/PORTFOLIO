@@ -1,0 +1,57 @@
+.grid{
+    display:grid;
+    justify-items: center;
+    margin-top:30vh;
+    background-color: #FFF;
+}
+  
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    grid-area: 1/1 /span 2/ span 3; 
+}
+  
+.green{
+    background-color: #00b074;
+    animation:move-right 2s linear infinite
+}
+  
+.dark{
+     background-color: #000;
+     animation:move-left 2s linear infinite
+}
+  
+@keyframes move-right{
+    0%, 100%{
+      margin-right:0
+    }
+    
+      25%{
+      margin-right:250px;
+        
+    }
+    50%{
+      z-index:2
+    }
+    
+    75%{
+      margin-right:-250px;
+    }
+}
+  
+@keyframes move-left{
+    0%, 100%{
+      margin-left:0
+    }
+    
+    25%{
+      margin-left:250px;
+    }
+    
+    75%{
+      margin-left:-250px;
+    }
+}
+  
+  

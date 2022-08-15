@@ -25,7 +25,7 @@ const Recommendation = ({data}) => {
             <Row>
                 <Col md={1}></Col>
                 <Col className="d-flex justify-content-center" sm={12} md={10} >
-                    <Carousel controls={false} className='py-5'  slide={true}>
+                    <Carousel controls={false} style={{backgroundColor:"#212529"}} className='rmdCarousel py-5 my-4'  slide={true}>
                         <Carousel.Item interval={1000}>
                             <div className='row rmdItem'>
                                 <span className='col-md-3 d-sm-flex justify-content-center   d-md-inline'>
