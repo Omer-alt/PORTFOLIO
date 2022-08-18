@@ -20,7 +20,7 @@ const NavBar = () => {
                     <Navbar.Toggle className='navbar-toggle-btn' aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="w-100 ms-5 mt-2 justify-content-evenly ">                                   
-                            <Nav.Link  className="navbar-link flex-sm-row flex-lg-column " href="#">Home <span className='animationLine ms-sm-5 m-lg-0'></span></Nav.Link>
+                            <Nav.Link  className="navbar-link flex-sm-row flex-lg-column " href="#home">Home <span className='animationLine ms-sm-5 m-lg-0'></span></Nav.Link>
                             <Nav.Link  className="navbar-link flex-sm-row flex-lg-column " href="#about-us">About Us <span className='animationLine ms-sm-5 m-lg-0'></span></Nav.Link>
                             <Nav.Link  className="navbar-link flex-sm-row flex-lg-column " href="#services">Service <span className='animationLine ms-sm-5 m-lg-0'></span></Nav.Link>
                             <Nav.Link  className="navbar-link flex-sm-row flex-lg-column " href="#experiences">Experience <span className='animationLine ms-sm-5 m-lg-0'></span></Nav.Link>

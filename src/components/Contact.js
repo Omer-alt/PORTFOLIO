@@ -1,10 +1,13 @@
 import React from 'react'
+
 import { Button, Col, Container, Row, InputGroup, Form } from 'react-bootstrap'
 import '../styles/Contact.css'
 import ContactItem from './tools/ContactItem'
 import MapLeaflet from './tools/map'
 
 const Contact = ({data}) => {
+
+    
   return (
     <Container>
         <Row>

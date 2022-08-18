@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <Container  fluid>
       <Row style={{paddingLeft:"0px",paddingRight:"0px"}}>
-        
+        <a name="home"></a>
         <Card className="bg-dark text-white">
           <Card.Img style={{width:"100vw"}} id='scrollTop' src={banner} alt="backgroundProfil"/>
           <Card.ImgOverlay>
@@ -16,9 +16,10 @@ const Banner = () => {
               <span className='bTitle'>Web App Developper</span>
               <Card.Title >Omer-alt FOTSO</Card.Title>
               <Card.Text className='d-none d-md-block'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-                tempor incididunt ut dolor the sit amet consectetur adipisicing
-                elit sed do consectetur labore et dolo
+                Hello every body ...<br/>
+                I am web app developper with JavaScript : Front-end with Reactjs and backend with nodejs/Expressjs
+                I am also student in university of Yaounde 1 in computer Science where i get my degree in software engeneering.   
+
               </Card.Text>
               <Button className='btEffect mt-lg-5' variant="success" size='lg'>VIEW MORE</Button>
             </Col>

@@ -97,28 +97,28 @@
     },
     "My_portfolio":[
         {
-            "category":"FASHION",
+            "filter":["Fashion"],
             "image":"fashion1.jpeg"
         },
         {
-            "category":"FASHION",
+            "filter":["Fashion"],
             "image":"fashion2.jpeg"
         },
         {
-            "category":"PRODUCT",
+            "filter":["Product"],
             "image":"product1.jpeg"
         },
         {
-            "category":"BRANDING",
+            "filter":["Branding"],
             "image":"branding1.jpeg"
         },
         
         {
-            "category":"PHOTOGRAPHY",
+            "filter":["Photography"],
             "image":"photography1.jpeg"
         },
         {
-            "category":"PRODUCT",
+            "filter":["Product"],
             "image":"product2.png"
         }
     ],
@@ -150,11 +150,11 @@
         },
         {
             "information":"company@example.com",
-            "icon":"BsFillEnvelopeFill"
+            "icon":"<BsIcon.BsFillEnvelopeFill/>"
         },
         {
             "information":"Demo A - 2 Puffin Street,Puffinville, USA",
-            "icon":"BsFillGeoAltFill"
+            "icon":"<BsIcon.BsFillGeoAltFill/>"
         }
         
         
